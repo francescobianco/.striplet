@@ -1,0 +1,17 @@
+{
+  "name": "striplet",
+  "scripts": {
+    "build": "browserify -o public/striplet.js index.js",
+    "start": "forever start -s -c striplet-server ."
+  },
+  "dependencies": {
+    "a": "^2.1.2",
+    "browserify": "^16.5.1",
+    "forever": "^2.0.0",
+    "http-server": "^0.12.1",
+    "jquery": "^3.4.1",
+    "socket.io-client": "^2.3.0",
+    "striplet-server": "^1.0.0"
+  },
+  "version": "0.0.0"
+}
